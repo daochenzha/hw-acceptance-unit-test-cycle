@@ -17,6 +17,9 @@ group :test do
   gem 'cucumber-rails', :require => false
   gem 'cucumber-rails-training-wheels'
   gem 'simplecov', :require => false
+  gem 'simplecov', :require => false
+  gem 'factory_girl_rails'
+  gem 'fake'
 end
 group :production do
 end
